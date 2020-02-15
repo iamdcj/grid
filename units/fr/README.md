@@ -1,6 +1,8 @@
 # The 'fr' Unit
 
-The `fr` unit is a fraction unit; it asssess the number of items in a `grid` container, and determines the fractional size for each item based on the container width.
+The `fr` unit is a **fraction** unit; it asssess the number of items in a `grid` container, and determines the fractional size for each item based on the container width.
+
+It isn't a direct replacement for percetange values, but it is the go-to value when dealing with fractional widths.
 
 **CSS**
 We state that we would like three columns, each a `fr`action wide.
