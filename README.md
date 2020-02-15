@@ -4,6 +4,8 @@ The grid layout module is a two-dimensional layout system specifically designed 
 
 It can handle two-dimensional layouts, that is, both rows _and_ columns can be manipulated when developing grid-based layouts. This differs to the `flex` layout system, which only handles one-direction layouts; columns _or_ rows.
 
+This allows the engineer to generate very flexible, and easily interchangeable layouts in our applications.
+
 ### **When to Use**
 
 Like `flex`, `grid` is a tool for laying-out content is a certain way, and based on what you need to achieve `grid` could be the right tool for the job.
@@ -30,6 +32,8 @@ All `grid` powereder layouts consist of two main things; a [grid container](./st
 
 - a **grid container**
   - and **grid-items**.
+
+More information: [Structure](structure)
 
 ---
 

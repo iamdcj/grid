@@ -6,7 +6,7 @@ These containers are the very foundation of a grid layout, and once defined allo
 
 ### Configuration
 
-All grid layouts start by creating a **grid container** - this is accomplished using the `display: grid` declaration.
+All grid layouts start by creating a **grid container** - this is accomplished using the `display: grid` or `display: inline-grid` declarations.
 
 **HTML**
 
@@ -18,7 +18,7 @@ All grid layouts start by creating a **grid container** - this is accomplished u
 
 ```
 .grid-container {
-  display: grid
+  display: grid;
 }
 ```
 
