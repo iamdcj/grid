@@ -20,6 +20,17 @@ The `grid-template-rows` property allows the engineer to state the number of row
 
 - `grid-template-rows: 200px 20px` - this will generate two rows, one at `200px` tall, the other at `20px` tall.
 
+#### grid-auto-rows / grid-auto-columns
+
+These properties allow the engineer to define the size for any implicit tracks, either column or row;
+
+- `grid-auto-columns: 150px` - this sets any browser generated column to be `150px` wide.
+- `grid-auto-rows: 200px` - this sets any browser generated row to be `200px` tall.
+
+These rules accept multiple, space-separated values;
+
+- `grid-auto-rows: 200px 150px` - this sets any browser generated row to be either `200px` or `150px` tall, based on the number of implicit rows, and the grid flow direction.
+
 #### gap / grid-gap / grid-column-gap / grid-row-gap
 
 These properties will set space between either the row, column, or both tracks;
