@@ -31,6 +31,17 @@ These rules accept multiple, space-separated values;
 
 - `grid-auto-rows: 200px 150px` - this sets any browser generated row to be either `200px` or `150px` tall, based on the number of implicit rows, and the grid flow direction.
 
+#### grid-auto-flow
+
+The `grid-auto-flow` property allows the engineer to define how the items should 'flow', which tells the browser how to handle any implicit items in the grid.
+
+The following example tells the browser not to wrap any implicit columns, i.e. don't generate a row, but simply keeping adding any items as a column, with a width of `200px`.
+
+```
+  grid-auto-flow: column;
+  grid-aut-columns: 200px;
+```
+
 #### gap / grid-gap / grid-column-gap / grid-row-gap
 
 These properties will set space between either the row, column, or both tracks;

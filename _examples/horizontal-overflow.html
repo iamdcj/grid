@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Auto Flow</title>
+
+  <style>
+    .grid {
+      display: grid;
+      max-width: 1216px;
+      margin: 0 20px;
+      grid-template-columns: 300px 300px 300px;
+      grid-auto-flow: column;
+      grid-auto-columns: 300px;
+      overflow: auto;
+    }
+
+    .grid-item {
+      border: 1px solid rgb(222, 72, 3);
+    }
+
+    code {
+      background: black;
+      border: 1px solid grey;
+      color: orange;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <p>CSS Grid allows us to prevent implicit row generation/wrapping, via the auto-flow property.</p>
+    <pre>
+      <code>
+      .grid {
+        grid-template-columns: 300px 300px 300px;
+        grid-auto-flow: column;
+        grid-auto-columns: 300px;
+        overflow: auto;
+      }
+      </code>
+    </pre>
+    <section class="grid">
+      <div class="grid-item">David</div class="grid-item">
+      <div class="grid-item">Stephanie</div>
+      <div class="grid-item">Nole</div>
+      <div class="grid-item">David</div class="grid-item">
+      <div class="grid-item">Stephanie</div>
+      <div class="grid-item">Nole</div>
+      <div class="grid-item">David</div class="grid-item">
+      <div class="grid-item">Stephanie</div>
+      <div class="grid-item">Nole</div>
+    </section>
+  </main>
+</body>
+
+</html>
