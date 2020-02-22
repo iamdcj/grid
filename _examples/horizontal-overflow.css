@@ -1,0 +1,6 @@
+.grid--horizontal-overflow {
+  grid-template-columns: 300px 300px 300px;
+  grid-auto-flow: column;
+  grid-auto-columns: 300px;
+  overflow: auto;
+}

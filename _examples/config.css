@@ -1,0 +1,23 @@
+:root {
+  display: flex;
+  justify-content: center;
+  font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande,
+    sans-serif;
+}
+
+.grid {
+  display: grid;
+  max-width: 1216px;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  padding: 20px 20px;
+  background: rgb(222, 72, 3);
+}
+
+section {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #333;
+}

@@ -1,0 +1,3 @@
+.grid--fixed-fluid {
+  grid-template-columns: 100px repeat(2, 1fr);
+}

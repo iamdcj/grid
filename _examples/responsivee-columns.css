@@ -1,0 +1,3 @@
+.grid--responsive-columns {
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+}
