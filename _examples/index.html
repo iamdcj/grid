@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Basic Arrangement</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="config.css">
   <link rel="stylesheet" href="horizontal-overflow.css">
   <link rel="stylesheet" href="fixed-fluid-widths.css">
@@ -12,11 +13,13 @@
 </head>
 
 <body>
-  <main>
+  <header>
     <h1>CSS Grid Examples</h1>
+  </header>
 
+  <main>
     <section>
-      <h4>Basic Grid</h4>
+      <h2>Basic Grid</h2>
       <div class="grid">
         <div class="grid-item">David</div>
         <div class="grid-item">Stephanie</div>
@@ -28,7 +31,7 @@
     </section>
 
     <section>
-      <h4>Overflow</h4>
+      <h2>Overflow</h2>
       <p>CSS Grid allows us to prevent implicit row generation/wrapping, via the auto-flow property.</p>
       <div class="grid grid--horizontal-overflow">
         <div class="grid-item">David</div>
@@ -44,7 +47,7 @@
     </section>
 
     <section>
-      <h4>Fixed &amp; Fluid Widths</h4>
+      <h2>Fixed &amp; Fluid Widths</h2>
       <p>CSS Grid allows us to mix-up fluid-width grid items, with fixed-width items;</p>
 
       <div class="grid grid--fixed-fluid">
@@ -55,9 +58,9 @@
     </section>
 
     <section>
+      <h2>Responsive Columns</h2>
       <p>CSS Grid allows us to set a min and max value for each grid item; min being the narrowest it should render, max
-        being the widest it should render</p>
-
+        being the widest it should render. It also allows us to auto-fill the grid items.</p>
       <div class="grid grid--responsive-columns">
         <div class="grid-item">David</div>
         <div class="grid-item">Stephanie</div>

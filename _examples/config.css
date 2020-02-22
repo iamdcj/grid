@@ -10,27 +10,40 @@
 }
 
 main {
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-direction: column;
   overflow: hidden;
+  width: 100%;
+}
+
+header {
+  background: rgb(222, 72, 3);
+  padding: 10px 20px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
 }
 
 .grid {
   display: grid;
-  max-width: 1216px;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .grid-item {
-  padding: 20px 20px;
-  background: rgb(222, 72, 3);
+  padding: 10px;
+  background: #707070;
+  color: #fff;
 }
 
 section {
   margin-bottom: 60px;
   padding-bottom: 60px;
   border-bottom: 1px solid #333;
+  max-width: 85vw;
 }
 
 pre {
