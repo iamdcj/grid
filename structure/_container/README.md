@@ -21,6 +21,7 @@ All grid layouts start with a **grid container** - this is accomplished using th
   display: grid;
 }
 ```
+Once defined, the container doesn't affect the layout of its grid items - that only occurs when the [rows](../rows) and [columns](../columns) are set.
 
 ---
 
